@@ -57,6 +57,34 @@ li:before {
   */
 }
 
+.caution {
+  font-size: 9pt;
+  line-height: normal;
+  color: #333;
+}
+.caution dl {
+  padding-bottom: .5em;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: .5em;
+}
+
+.caution dt {
+  padding-bottom: .5em;
+}
+
+dd {
+  margin-left: 1em;
+}
+
+@media screen and (min-width: 600px) {
+  /*　画面サイズが600pxからはここを読み込む　*/
+  .caution dt {
+    clear: left;
+    float: left;
+    width: 6em;
+  }
+}
+
 .questionDiv {
   margin: 1em;
   font-size: 10pt;
